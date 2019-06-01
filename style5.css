@@ -1,0 +1,48 @@
+body{
+    background-image: url(img/sun.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.saturn{
+    position: absolute;
+    margin-top: 40px;
+    right: 15%;
+    z-index: 1;
+    transform: rotate(-20deg)
+}
+
+.mars{
+    position: absolute;
+    left: 10%;
+    z-index: 2;
+}
+
+.moon{
+    position: absolute;
+    margin-top: 100px;
+    right: 35%;
+    z-index: 3;
+}
+
+.earth{
+    position: absolute;
+    margin-top: 150px;
+    right: 25%;
+    z-index: 4;
+}
+
+.venus{
+    position: absolute;
+    margin-top: 350px;
+    left: 35%;
+    z-index: 5;
+}
+
+.mercury{
+    position: absolute;
+    margin-top: 600px;
+    left: 75%;
+    z-index: 6;
+}
+    
